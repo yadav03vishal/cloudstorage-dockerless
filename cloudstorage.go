@@ -15,6 +15,7 @@ import (
 	"google.golang.org/api/iterator"
 )
 
+
 type CloudStorage interface {
 	// UploadFile uploads file to given cloud bucket & filepath, creates a new one or replaces existing
 	UploadFile(context.Context, io.Reader, CloudFileRequest) (int64, error)
