@@ -10,7 +10,6 @@ require (
 	go.uber.org/zap v1.24.0
 	google.golang.org/api v0.107.0
 )
-
 require (
 	cloud.google.com/go v0.105.0 // indirect
 	cloud.google.com/go/compute v1.14.0 // indirect
