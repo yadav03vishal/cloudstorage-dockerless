@@ -17,6 +17,7 @@ func TestEncoding(t *testing.T) {
 			Path:        []string{"/test"},
 		},
 	}
+	
 
 	compare := func(expect, got []string) bool {
 		// no data to compare, return true
